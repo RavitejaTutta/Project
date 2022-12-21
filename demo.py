@@ -1,7 +1,7 @@
 print("Hello")
 print("Project 13")
 from flask import Flask,render_template
-app=Falsk(__name__)
+app=Flask(__name__)
 
 @app.route('/')
 def demo():
