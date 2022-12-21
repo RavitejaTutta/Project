@@ -1,0 +1,11 @@
+print("Hello")
+print("Project 13")
+from flask import Flask,render_template
+app=Falsk(__name__)
+
+@app.route('/')
+def demo():
+    return render_template('index.html')
+
+if __name__=='__main__':
+    app.run()
